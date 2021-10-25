@@ -123,7 +123,7 @@ section {
 #skills {
     margin-top: 100px;
     height:auto;
-    background-color: beige;
+    background-color: #9e9b9b29;
 }
 
 #skills h1 {
@@ -215,3 +215,44 @@ section {
     border-radius: 0.5rem;
     background-color:purple;
 }
+
+
+/* Adding Contact Section */
+#contact {
+    height:auto;
+    background-image: linear-gradient(to right, #2857a4, #403066);
+    padding-bottom: 100px;
+}
+
+#contact h1 {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: white;
+}
+
+ .contact-display {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ #leftdiv {
+     width: 40%;
+     margin-left: 100px;
+ }
+
+#leftdiv div input {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid white;
+}
+
+ #rightdiv {
+     width: 30%;
+     margin-left: 100px;
+     margin-right: 100px;
+     color: white;
+ }
