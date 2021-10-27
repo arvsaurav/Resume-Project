@@ -286,7 +286,7 @@ section {
 .timeline-box {
     background-color: beige;
     position: relative;
-    width: 45%;
+    width: 41%;
     left: 5%;
     margin: 5px;
     min-height: 200px;
@@ -297,7 +297,7 @@ section {
 
 /* all even children of timeline should be in the right side */
 .timeline-box:nth-child(2n){
-    left: 53%;
+    left: 58%;
 }
 
 .timeline-box h2 {
@@ -335,4 +335,22 @@ section {
 
 .timeline-box ul li{
     font-size: 1.4rem;
+}
+
+
+/* Adding timeline divider */
+
+.timeline-divider {
+    position: absolute;
+    border: 2px dashed #0096fa6b;
+    height: 75%;
+    width: 0;
+    top: 10%;
+    left: 52.5%;
+}
+
+.timeline-traveller {
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
 }
