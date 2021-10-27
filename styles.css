@@ -256,3 +256,82 @@ section {
      margin-right: 100px;
      color: white;
  }
+
+ #send input:hover{
+     background:steelblue;
+ }
+
+
+ /* Work Experience */
+
+ #experience {
+    height:auto;
+    padding-bottom: 100px;
+}
+
+ #experience h1 {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: #0707ad;
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    width: 80%;
+    /* border: 2px solid black; */
+}
+
+.timeline-box {
+    background-color: beige;
+    position: relative;
+    width: 45%;
+    left: 5%;
+    margin: 5px;
+    min-height: 200px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    /* border: 2px solid black; */
+}
+
+/* all even children of timeline should be in the right side */
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+
+.timeline-box h2 {
+    font-size: 2.5rem;
+    position: relative;
+    margin-top: 10px;
+    color: red;
+}
+
+.timeline-box h3 {
+    font-size: 1.5rem;
+    left: 2%;
+    position: relative;
+    color: blue;
+    margin-top: -25px;
+}
+
+.timeline-box h4 {
+    position: relative;
+    left: 3%;
+    color: black;
+    margin-top: -20px;
+    font-weight: 600;
+}
+
+.timeline-box h2::before {
+    display: inline-block;
+    content: '';
+    background-image: url("Images/codingninjas.jfif");
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+
+.timeline-box ul li{
+    font-size: 1.4rem;
+}
